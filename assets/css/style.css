@@ -1,0 +1,257 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-menu {
+  background: #fff;
+  width: 90%;
+  transform-origin: center;
+  left: 5%;
+  position: fixed;
+  top: 0;
+  margin: 10px 0;
+  box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.1960784314);
+}
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 12px;
+}
+.nav-menu ul li {
+  padding: 20px 20px;
+}
+.nav-menu ul li:hover {
+  color: rgb(48, 62, 220);
+}
+
+.hero-section {
+  background: url("../img/hero.jpg") fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10%;
+}
+.hero-section div {
+  margin-left: 50%;
+  margin-right: 10%;
+  color: antiquewhite;
+}
+.hero-section div h1 {
+  line-height: 3.5rem;
+  font-weight: 100;
+  font-size: 60px;
+}
+.hero-section div p {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+.hero-section div button {
+  background-color: #1e1e1e;
+  text-align: center;
+  color: #fff;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.hero-section div button:hover {
+  transition-duration: 0.3s;
+  background: #000;
+  box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+}
+
+.wellcome-section {
+  height: 100vh;
+  display: flex;
+  padding: 0 10%;
+}
+.wellcome-section .image {
+  background: url("../img/5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 50%;
+}
+.wellcome-section .content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+.wellcome-section .content h2 {
+  line-height: 2.5rem;
+  font-weight: 100;
+  font-size: 40px;
+}
+.wellcome-section .content p {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+.wellcome-section .content button {
+  background: rgb(48, 62, 220);
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1rem 1.6rem;
+  font-size: 16px;
+  border: none;
+  border-radius: 100px;
+  transition-duration: 0.3s;
+  margin-top: 20px;
+}
+.wellcome-section .content button:hover {
+  transition-duration: 0.3s;
+  box-shadow: 0 5px 10px rgba(51, 51, 51, 0.1960784314);
+  background: rgb(21, 34, 179);
+}
+
+.best-sell-products {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+.best-sell-products .title {
+  text-align: center;
+  width: 50%;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+.best-sell-products .title h3 {
+  font-weight: 100;
+  font-size: 40px;
+}
+.best-sell-products .title p {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+.best-sell-products .products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.best-sell-products .products .product-card {
+  width: 300px;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.best-sell-products .products .product-card img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 10px;
+}
+.best-sell-products .products .product-card h5 {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.best-sell-products .products .product-card .price-info {
+  margin-top: auto;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-around;
+}
+.best-sell-products .products .product-card .price-info .price {
+  color: rgb(179, 34, 34);
+}
+.best-sell-products .products .product-card .price-info .old-price {
+  text-decoration: line-through;
+}
+.best-sell-products .products .product-card .price-info .save {
+  color: green;
+}
+.best-sell-products .best-sell-call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.best-sell-products .best-sell-call-to-action button {
+  padding: 15px;
+  background: none;
+  border-radius: 5px;
+  border: 2px solid rgb(77, 244, 183);
+  color: rgb(77, 244, 183);
+  margin: 0 auto;
+  transition-duration: 0.3s;
+  font-size: 16px;
+}
+.best-sell-products .best-sell-call-to-action button:hover {
+  background: rgb(77, 244, 183);
+  color: #111;
+  transition-duration: 0.3s;
+}
+
+.real-taste {
+  text-align: center;
+  height: 50vh;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(21, 163, 251);
+}
+.real-taste h3 {
+  color: #111;
+  font-weight: 100;
+  font-size: 40px;
+}
+.real-taste p {
+  color: #111;
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+footer {
+  height: 30vh;
+  background: #111;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 10% 20px 10%;
+}
+footer .social {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+}
+footer .social a {
+  color: #666;
+  text-decoration: none;
+}
+footer .footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+footer .footer-menu a {
+  color: #666;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
